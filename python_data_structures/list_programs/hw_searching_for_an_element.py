@@ -5,7 +5,7 @@ flag=0
 
 for i in lst:
     if i==num:
-        flag=0
+        flag=0     #if element in lst (simple way to find the element in a list)
         break
     elif i!=num:
         flag=1

@@ -15,8 +15,7 @@
 
 list1 = [10,9,8,11,12,5,6]
 
-# sorting the list
+
 list1.sort()
 
-# printing the second last element
 print("Second largest element is:", list1[-2])
