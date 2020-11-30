@@ -9,11 +9,11 @@ low=0
 upp=len(lst)-1
 flg=0
 
-while(low<upp):
-    mid=(low+upp)//2
+while(low<=upp): #0<=6
+    mid=(low+upp)//2 #3
     #case1
-    if(element>lst[mid]):
-        low=mid+1
+    if(element>lst[mid]): #10>6 10>7
+        low=mid+1   #low=3+1=4  4+1=5
     elif(element<lst[mid]):
         upp=mid-1
     elif(element==lst[mid]):
