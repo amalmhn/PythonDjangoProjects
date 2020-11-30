@@ -1,4 +1,4 @@
-employees=[[1001,'ajay','qa',15000],[1002,'vijay','developer',25000],[1003,'arun','ba',15000],
+employees=[[1001,'ajay','qa',15000],[1002,'vijay','developer',25000],[1003,'arun','qa',15000],
           [1004,'amal','developer',30000]]
 
 #print employee id
@@ -15,16 +15,21 @@ print(salarySum)
 
 
 #find how mant members working as developer
-developer=0
+cnt=0
 for i in employees:
     if i[2]=='developer':
-        developer+=1
-print(developer)
+        cnt+=1
+print(cnt)
 
 
 
 #find total salary group by designation
 qaSum=0
+deSum=0
 for i in employees:
     if (i[2]=='qa'):
         qaSum+=i[3]
+    if (i[2]=='developer'):
+        deSum+=i[3]
+print(qaSum)
+print(deSum)
