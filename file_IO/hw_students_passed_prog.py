@@ -13,6 +13,6 @@ for j in file2:
 print(st2)
 
 print('--------------------------------------------')
-failed=st.difference(st2)
+fail=st.difference(st2)
 
-print(failed)
+print(fail)

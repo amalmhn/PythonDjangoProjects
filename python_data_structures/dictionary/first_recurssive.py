@@ -7,3 +7,4 @@ for char in pattern:
     else:
         print(char,'is the first recursive character')
         break
+
