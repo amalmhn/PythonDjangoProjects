@@ -18,8 +18,16 @@ for lines in f:
 for k,v in dict.items():
     print(k,v)
 ##############################################################
+sorted_list=sorted(dict, key=dict.get)
+print(sorted_list)
 
-# print(sorted(dict, key=dict.get))   #working but only printing the key values
+print("The state which have lowest confirmed cases is ",sorted_list[0])
+
+print("The state which have highest confirmed cases is ",sorted_list[-1])
+
+
+
+#working but only printing the key values
 
 
 
