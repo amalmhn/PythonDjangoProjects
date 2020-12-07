@@ -18,6 +18,10 @@ for lines in f:
 for k,v in dict.items():
     print(k,v)
 ##############################################################
+#highest=max(dict,key=dict.get)
+#min=min(dict,key=dict.get)
+
+
 sorted_list=sorted(dict, key=dict.get)
 print(sorted_list)
 
