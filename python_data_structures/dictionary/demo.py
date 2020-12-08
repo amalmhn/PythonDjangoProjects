@@ -15,8 +15,6 @@ def printStudent(**kwarg):
     id=kwarg.get('id')
     prop = kwarg.get('property')
     if(id in students):
-
-
         if prop in students[id]:
             print(students[id][prop])
         else:
