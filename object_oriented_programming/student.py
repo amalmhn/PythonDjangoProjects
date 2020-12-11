@@ -22,3 +22,5 @@ obj.print_student()
 #we can acces insctance variables outside the class by using reference
 print(obj.name)
 #you can replace the name roll course. Details in screenshot taken on 9/12/2020
+
+

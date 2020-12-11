@@ -1,15 +1,23 @@
 class Bank:
 
+    bank_name="SBK" #static variable
+    @staticmethod #decorator
+    def utility_method():
+        print('utility method')
+    @classmethod
+    def change_bank_name(cls):
+        cls.bank_name='SBK'
 
-    def create_account(self,acno,name,balance,bank_name):
+    def create_account(self,acno,name,balance): #instance method
         self.acno=acno
         self.name=name
         self.balance=balance
-        self.bank_name=bank_name
+
 
     def deposit(self,amount):
         self.balance+=amount
-        print("your acccount",self.acno,'has been credited with the amount',amount,
+        #accessing the static variable below "Bank.bank_name"
+        print(Bank.bank_name,"your acccount",self.acno,'has been credited with the amount',amount,
               'your balance is ',self.balance)
 
 
@@ -25,8 +33,14 @@ class Bank:
         print('your available balance is',self.balance)
 
 obj=Bank()
-obj.create_account(1001,'Amal',5000,'SBK')
+obj.create_account(1001,'Amal',5000)
 obj.deposit(5000)
 obj.withdraw(1000)
 obj.balance_enq()
+
+#how to acces instance variables outside the class
+print(obj.acno)
+
+#static method
+Bank.utility_method()
 
