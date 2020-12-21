@@ -9,18 +9,18 @@ low=0
 upp=len(lst)-1
 flg=0
 
-while(low<=upp): #0<=6
-    mid=(low+upp)//2 #3
+while(low<=upp): #0<=6  4<=6    4<=4
+    mid=(low+upp)//2    #3  5   4
     #case1
-    if(element>lst[mid]): #10>6 10>7
-        low=mid+1   #low=3+1=4  4+1=5
-    elif(element<lst[mid]):
-        upp=mid-1
+    if(element>lst[mid]):   #7>6    7>8...
+        low=mid+1   #4
+    elif(element<lst[mid]): #7<8
+        upp=mid-1   #4
     elif(element==lst[mid]):
         flg=1
         break
 
-if(flg>0):
+if(flg==1):
     print("Found")
 else:
     print("Not found")

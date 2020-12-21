@@ -15,7 +15,7 @@ while (low<upper):
         low=low+1
 
     elif (element==total):
-        print("pairs are", lst[low], lst[upper])
+        print("pairs are", lst[low],'and', lst[upper])
         break
 
 

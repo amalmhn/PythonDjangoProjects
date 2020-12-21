@@ -10,6 +10,7 @@ print(lst[-1])
 
 print(lst[0:3])
 
+print('---------------------------------')
 #list slicing (upper, lower, step)
 print(lst[0:4:2])
 
