@@ -1,0 +1,51 @@
+sql>show databases;
+lists all databases
+
+sql>create database cms;
+
+sql>use cms;
+
+sql>show tables;
+lists all tables in particular database
+
+>students(rol,name,course,age)
+>create table students(rol varchar(10),name varchar(10),course varchar(20),age int);
+
+to know the structure of the table
+>desc students
+
+KEYS: primary key,foreign key
+primary key used for unique identification
+foreign key used for reference purpose(this table to another table)
+
+to add values
+>insert into stuedents(rol,name,course,age)values('100','ajay','mca',25);
+try 102 103 104
+
+>select * from students;
+>select name from students;
+
+list students name who are studying mca
+>select name from students where course='mca';
+
+fetch the details of the person with rol 100
+>select * from students where rol='100'
+update age to 26
+>update students set age=26 where rol='100'
+
+delete particular record
+>delete from students where rol='104';
+
+Billing system:
+-bill(slno,itemname,unitprice,qty,rate,price,subtotal)
+
+hw
+table marks
+id rolno total
+
+delete all values in the table
+>truncate (table name) ;
+table would be still there
+
+if you want to delete the table
+>drop (table name)
