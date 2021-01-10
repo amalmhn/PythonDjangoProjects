@@ -49,3 +49,10 @@ table would be still there
 
 if you want to delete the table
 >drop (table name)
+
+You can create another table in a same database and connect them using a-
+foreign body.(for eg. rol varchar(10)) this id should be same as the other tabe-
+to get the connection.
+
+
+select name,total from students,marks where marks.rol=students.rol;
