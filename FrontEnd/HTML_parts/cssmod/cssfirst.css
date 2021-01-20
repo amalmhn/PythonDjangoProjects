@@ -24,6 +24,10 @@ body{
     background-image: url(https://resources.platform.bcci.tv/bcci/photo/2020/09/26/ef1a48e3-0386-40b0-8f51-062caccc7f72/bcci-logo-for-article.jpg);
     background-position: center;
     background-size: cover;
+    width: 30%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
 }
 #ind_team{
     color: orange;
@@ -34,7 +38,12 @@ body{
     background-image: url(https://i0.wp.com/www.freewallpapers4u.in/wp-content/uploads/2020/12/Australia-national-cricket-team-logo-freewallpapers4u.jpg?fit=600%2C312&ssl=1);
     background-position: center;
     background-size: cover;
+    width: 30%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
 }
+
 #ausTeam{
     color: yellow;
 }
@@ -43,7 +52,12 @@ body{
     background-image: url(https://www.gdnonline.com/gdnimages/20191009/20191009010001589079-339948-logo-ecb700.jpg);
     background-position: center;
     background-size: cover;
+    width: 30%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
 }
+
 #engTeam{
     color: white;
 }
@@ -51,4 +65,11 @@ h3{
     margin-left: 0.5cm;
     color: white;
     text-shadow: 0 0 3px #0c0c0c, 0 0 5px #0a0a0a;
+}
+.global{
+    background-color: royalblue;
+    width: 30%;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 3px;
 }

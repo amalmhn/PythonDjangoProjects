@@ -1,0 +1,14 @@
+.kia{
+    color: red;
+}
+
+.hyu{
+    color: blue;
+}
+#creta{
+    background-color: grey;
+    width: 20%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: indigo;
+}

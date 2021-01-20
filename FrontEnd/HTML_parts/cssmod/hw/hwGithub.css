@@ -1,0 +1,47 @@
+#gitImg{
+    height: 100px;
+    width: 100px;
+    margin-left: 50%;
+}
+#signin{
+    
+    margin-left:560px ;
+}
+#form{
+    
+    margin-left:560px ;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px
+}
+#passwd{
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px   
+}
+#submit{
+    width: 244px;
+    margin-top: 15px;
+    background-color: #2ea44f;
+    color: #fff;
+    border-color: rgba(27, 31, 35 , 0.15);
+    box-shadow: 0 1px 0 rgba(27, 35, 31, 0.1), inset 0 1px 0 hsla(0, 0%, 100%, 0.03);
+    cursor:pointer;
+    border-radius: 8px;
+    height: 30px;
+
+}
+#submit:hover{
+    background-color: #2f9149;
+
+}
+h2 { 
+    font-weight:normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+#form{
+    margin-left: 590px;
+}

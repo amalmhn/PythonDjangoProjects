@@ -1,0 +1,55 @@
+/* #left{
+    background-color: blue;
+    /* width: 50%; */
+    /* height: 100px; */
+    /* float: left;  */
+/* } */ */
+/* #right{
+    background-color: green; */
+    /* /* width: 50%;
+    height: 10px; */
+    /* float: left;  */
+/* } */
+#middle{
+    /* background-color: red; */
+    /* /* width: 50%;
+    height: 10px; */
+    /* float: left;    */
+}
+#img{
+    height: 100px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+#sign_txt{
+    margin-left: 128px;
+    font-size: 25px;
+}
+#usr_inpt{
+    width: 300px;
+    
+}
+    /* #pwd{
+        float: left;
+    }
+    #fgtwd{
+        float: left;
+    } */
+#fgtPwd{
+    margin-left: 105px;
+    text-decoration:none
+}
+#pwd{
+    margin-top: 10px;
+}
+#pwd_inpt{
+    width: 300px;
+}
+#signIn_btn{
+    width: 300px;
+    margin-top: 10px;
+}
+#entireForm{
+    margin-left: 65px;
+}

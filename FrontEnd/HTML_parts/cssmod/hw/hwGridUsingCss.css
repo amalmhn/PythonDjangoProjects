@@ -1,0 +1,45 @@
+h2{
+font-family: 'Potta One', cursive;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+#one{
+    background-color: blue;
+    width: 200px;
+    height: 500px;
+    margin-left: 100px;
+    float: left;
+}
+#two{
+    background-color: rgb(89, 161, 228);
+    width: 200px;
+    height: 500px;
+    margin-left: 25px; /*margin left will strats from the nearest div */
+    float: left;
+}
+#three{
+    background-color: rgb(119, 159, 196);
+    width: 200px;
+    height: 500px;
+    margin-left: 25px;
+    float: left;
+}
+#four{
+    background-color: rgb(214, 168, 98);
+    width: 200px;
+    height: 500px;
+    margin-left: 25px;
+    float: left;
+}
+#five{
+    background-color: rgb(216, 60, 94);
+    width: 200px;
+    height: 500px;
+    margin-left: 25px;
+    float: left;
+}
