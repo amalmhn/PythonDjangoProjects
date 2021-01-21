@@ -1,0 +1,36 @@
+#resume{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding-left: 50px;
+}
+/* #ulItems{
+    color: white;
+} */
+#home{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#about{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#course{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#placmnts{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#gallery{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#contact{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+#navbarSupportedContent{
+    margin-right: 100px;
+
+}
