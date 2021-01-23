@@ -1,6 +1,6 @@
 // var num=10;
 // var num1="10";
-// if(num===num1){ //in js '==' meant for content comparison
+// if(num===num1){ //in js '==' meant for content comparison * === will check the type also
 //     console.log("Both are equal")
 // }
 // else{

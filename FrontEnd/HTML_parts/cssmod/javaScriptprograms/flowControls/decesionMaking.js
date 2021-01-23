@@ -2,7 +2,7 @@ var num=Number(prompt("Enter the value for number")); //prompt command to input 
 if(num<0){
     console.log('Number is -ve')
 }
-else if(){
+else if(num>0){
     console.log('Number is +ve')
 }
 else{
