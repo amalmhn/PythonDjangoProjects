@@ -9,6 +9,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 </head>
 
 <body>
@@ -17,18 +18,22 @@
         <a class="navbar-brand" href="#">
             <h2 id="resume">Resume</h2>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        <button id="hamBurgr" class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul id="ulItems" class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left:42% ;">
+                
                 <li class="nav-item">
-                    <a id="home" class="nav-link active" aria-current="page" href="#" style="width: 90px;">Key skills</a>
+                    <a id="home" class="nav-link active" aria-current="page" href="#keySkills" style="width: 90px;">Key skills</a>
                 </li>
                 <li class="nav-item">
-                    <a id="about" class="nav-link active" href="#">Contact</a>
+                    <a id="about" class="nav-link active" href="#strengths">Strengths</a>
+                </li>
+                <li class="nav-item">
+                    <a id="home" class="nav-link active" aria-current="page" href="#academicQlfctn" style="width: 90px;">Academic Qualification</a>
                 </li>
                 <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,19 +46,20 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li> -->
-                <li class="nav-item">
-                    <a id="course" class="nav-link active"  href="#">Strengths</a>
-                </li>
+                
                 <!-- <li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->
                 <li class="nav-item">
                 </li>
                 <li class="nav-item">
-                    <a id="gallery" class="nav-link active"  href="#" style="width: 190px;">Extra curricular activities</a>
+                    <a id="gallery" class="nav-link active"  href="#extraCurrActvts" style="width: 190px;">Extra curricular activities</a>
                 </li>
                 <li class="nav-item">
-                    <a id="contact" class="nav-link active" href="#">Work Experience</a>
+                    <a id="contact" class="nav-link active" href="#workExp">Work Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a id="course" class="nav-link active"  href="#personalInfo">Personal Information</a>
                 </li>
             </ul>
             <!-- <form class="d-flex">
@@ -65,11 +71,12 @@
 </nav>
 <div class="container">
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6">
             <img id="pasportImg" src="pp-12-01-2019-01.jpg" alt="">
         </div>
-        <div class="col-6">
-            <h3 id="h3Profile" style="margin-top:250px; text-align: center; color: #4287f5;"><strong>
+        <div class="col-md-6">
+            <h1 style="margin-top: 200px; text-align: center; font-family: 'Times New Roman', Times, serif;"><strong>Amal M</strong></h1>
+            <h3 id="h3Profile" style="margin-top:80px; text-align: center; color: #4287f5;"><strong>
                 PROFILE</strong></h3>
                 Self-motivated and hardworking
                 fresher in IT seeking for an
@@ -82,7 +89,7 @@
     </div>
     
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="keySkills">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Key skills</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -134,7 +141,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="strengths">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Strengths</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -148,7 +155,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="academicQlfctn">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Academic Qualification</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -176,7 +183,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="extraCurrActvts">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Extra Curricular Activities</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -193,7 +200,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="workExp">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Work Experience</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -224,7 +231,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6" id="personalInfo">
             <h3 style="text-align: center; margin-top: 100px; font-family: 'Times New Roman', Times, serif; color: #4287f5;"><strong>Personal Information</strong></h3>
         </div>
         <div style="margin-top: 100px; font-family: 'Times New Roman', Times, serif;" class="col-6">
@@ -242,8 +249,9 @@
         </div>
     </div>
 </div>
-<footer style="background-color:black; width: 100%; height: 50px; margin-top: 20px;">
-    
+<footer  style="background-color:black; width: 100%; height: 50px; margin-top: 20px;">
+    <!-- <i class="fa fa-linkedin"></i>123 -->
+    <a style="background-color:black; text-decoration: none; margin-left: 50%;" href="https://www.linkedin.com/in/amal-mohan-093621172" class="fa fa-linkedin"></a> 
 </footer>
 
 </body>

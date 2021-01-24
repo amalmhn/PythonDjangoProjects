@@ -45,3 +45,14 @@
     font-family: "Times New Roman", Times, serif;
     
 }
+#hamBurgr{
+    background-color: white;
+    
+}
+/* .icon-linkedin{
+    background-color: white;
+} */
+.fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  } 
