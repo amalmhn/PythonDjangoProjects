@@ -38,9 +38,17 @@
 // var sq=arr.map(num=>num**2)
 // console.log(sq)
 
-var arr=[6,5,4,2,11,12]
-arr.map(num=>num**2).forEach(num=>console.log(num))// internal iteration
+//forloop fn
 
-for(let num of arr){
-    console.log(num) // extrenal iteration
-}
+// var arr=[6,5,4,2,11,12]
+// arr.map(num=>num**2).forEach(num=>console.log(num))// internal iteration
+
+// for(let num of arr){
+//     console.log(num) // extrenal iteration
+// }
+
+var arr=[6,5,4,2,11,12]
+
+var total=arr.reduce((o1,o2)=>o1+o2)
+
+var mx=arr.reduce((o1,o2)=>)
