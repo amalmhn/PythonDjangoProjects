@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ajax</h1>
+</body>
+<script>
+    var req = new XMLHttpRequest()
+    req.open('get','https://jsonplaceholder.typicode.com/posts/1')
+    req.send()
+    // req.open('get','https://jsonplaceholder.typicode.com/posts')
+    // var obj = {
+    //     title = 'foo',
+    //     body = 'bar',
+    //     userId = 1,
+    // }
+    // req.send()
+    req.onreadystatechange=()=>{
+        if(req.readyState==4){
+            if((req.status>199)&(req.status<300)){
+                alert('sucess')
+                // alert(req.responseText)
+                // var data = JSON.parse(req.responseText)
+                // console.log(data)
+                // data.forEach(obj=>console.log(obj.name))
+            }else{
+                alert('failed')
+            }
+        }
+    }
+
+</script>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="id">
+    <button onclick="submit()" id="btn">Submit</button>
+    <table>
+        <tr>
+            <td>id</td>
+            <td>title</td>
+            <td>body</td>
+        </tr>
+        <tbody id="tbdy"></tbody>
+
+    </table>
+</body>
+<script>
+    // AJAX
+    var id=''
+    function submit(){
+        id=document.querySelector('#id').value
+        
+    
+    var url='https://jsonplaceholder.typicode.com/posts/'+id
+    // alert(url)
+    var request=new XMLHttpRequest()
+    request.open('get',url)
+    request.send()
+    request.onreadystatechange=()=>{
+        if(request.readyState==4){
+            if((request.status>199)&(request.status<300)){
+                // alert(request.responseText)
+                var data=JSON.parse(request.responseText)
+                // alert(data.title)
+                var htmlcontent=''
+                htmlcontent+="<tr><td>"+data.id+"</td><td>"+data.title+"</td><td>"+data.body+"</td></tr>"
+                document.querySelector('#tbdy').innerHTML=htmlcontent
+                // console.log(data)
+                // data.forEach(obj=>console.log(obj.name))
+                // alert(data.title)
+            }else{
+                alert('failed')
+            }
+        }
+    }
+}
+
+
+</script>
+</html>
